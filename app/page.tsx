@@ -541,7 +541,7 @@ export default function PersonalTrainerLanding() {
           <div className="border-t border-gray-800 mt-8 pt-8">
             <div className="flex flex-col md:flex-row justify-between items-center">
               <p className="text-gray-400 mb-4 md:mb-0">
-                © 2024 João Silva Personal Trainer. Todos os direitos reservados.
+                © 2024 Angelica Santos Personal Trainer. Todos os direitos reservados.
               </p>
               <Link
                 href="https://www.instagram.com/blendocosta1"
