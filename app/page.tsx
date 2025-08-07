@@ -27,7 +27,7 @@ export default function PersonalTrainerLanding() {
       <section className="relative min-h-screen flex items-center justify-center bg-black text-white overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/placeholder.svg?height=1080&width=1920"
+            src="/banner-pc.png"
             alt="Personal Trainer em ação"
             fill
             className="object-cover opacity-60"
@@ -487,7 +487,7 @@ export default function PersonalTrainerLanding() {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <h3 className="text-2xl font-bold mb-4 text-red-600">João Silva</h3>
+              <h3 className="text-2xl font-bold mb-4 text-red-600">Angelica Santos</h3>
               <p className="text-gray-400 mb-4">Personal Trainer</p>
               <p className="text-gray-400">Transformando vidas através do fitness</p>
             </div>
