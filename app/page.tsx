@@ -174,7 +174,7 @@ export default function PersonalTrainerLanding() {
                   </div>
                 </div>
                 <p className="text-gray-300 mb-4">
-                  "Perdi 8kg em 3 meses com os treinos do João. Além do físico, ganhei autoestima!"
+                  "Perdi 8kg em 3 meses com os treinos da Angelica. Além do físico, ganhei autoestima!"
                 </p>
                 <Badge className="bg-red-600">-8kg em 3 meses</Badge>
               </CardContent>
@@ -200,7 +200,7 @@ export default function PersonalTrainerLanding() {
                   </div>
                 </div>
                 <p className="text-gray-300 mb-4">
-                  "Nunca pensei que conseguiria ganhar massa muscular aos 45 anos. O João provou que é possível!"
+                  "Nunca pensei que conseguiria ganhar massa muscular aos 45 anos. A angelica provou que é possível!"
                 </p>
                 <Badge className="bg-red-600">+12kg massa magra</Badge>
               </CardContent>
@@ -284,7 +284,7 @@ export default function PersonalTrainerLanding() {
             </div>
           </div>
 
-          <div className="text-center mt-12">
+          <div className="hidden text-center mt-12">
             <div className="bg-gray-100 rounded-lg p-8 max-w-2xl mx-auto">
               <Image
                 src="/placeholder.svg?height=300&width=500"
