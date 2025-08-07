@@ -32,6 +32,14 @@ export default function PersonalTrainerLanding() {
             fill
             className="object-cover opacity-60"
           />
+
+           {/* Imagem para celular (menor que md) */}
+    <Image
+      src="/banner-cel.jpg"
+      alt="Personal Trainer em ação"
+      fill
+      className="block md:hidden object-cover opacity-60"
+    />
           <div className="absolute inset-0 bg-gradient-to-r from-black/80 to-black/40" />
         </div>
 
@@ -158,7 +166,7 @@ export default function PersonalTrainerLanding() {
               <CardContent className="p-6">
                 <div className="flex items-center mb-4">
                   <Image
-                    src="/placeholder.svg?height=60&width=60"
+                    src="/camila.jpg"
                     alt="Camila S."
                     width={60}
                     height={60}
@@ -184,7 +192,7 @@ export default function PersonalTrainerLanding() {
               <CardContent className="p-6">
                 <div className="flex items-center mb-4">
                   <Image
-                    src="/placeholder.svg?height=60&width=60"
+                    src="/ricardo.jpg"
                     alt="Ricardo M."
                     width={60}
                     height={60}
@@ -210,7 +218,7 @@ export default function PersonalTrainerLanding() {
               <CardContent className="p-6">
                 <div className="flex items-center mb-4">
                   <Image
-                    src="/placeholder.svg?height=60&width=60"
+                    src="/ana.jpg"
                     alt="Ana P."
                     width={60}
                     height={60}
