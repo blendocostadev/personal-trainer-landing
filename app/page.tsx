@@ -64,7 +64,7 @@ export default function PersonalTrainerLanding() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Button size="lg" className="bg-red-800 hover:bg-red-700 text-white px-8 py-4 text-lg font-bold w-full">
+              <Button size="lg" className="bg-red-800 hover:bg-green-800 text-white px-8 py-4 text-lg font-bold w-full">
                 QUERO COMEÇAR AGORA
               </Button>
             </Link>
@@ -365,7 +365,7 @@ export default function PersonalTrainerLanding() {
           <div className="grid lg:grid-cols-2 gap-8 md:gap-12 items-center max-w-6xl mx-auto">
             <div>
               <Image
-                src="/placeholder.svg?height=600&width=500"
+                src="/personal.jpg"
                 alt="Angelica Santos - Personal Trainer"
                 width={500}
                 height={600}
