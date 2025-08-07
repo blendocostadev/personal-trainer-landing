@@ -6,7 +6,7 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "João Silva - Personal Trainer | Transforme seu Corpo em 90 Dias",
+  title: "Angelica Santos - Personal Trainer | Transforme seu Corpo em 90 Dias",
   description:
     "Acompanhamento 100% personalizado com resultados reais. Treinos direcionados e suporte total para você alcançar o melhor shape da sua vida.",
 }
