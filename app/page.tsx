@@ -44,14 +44,14 @@ export default function PersonalTrainerLanding() {
         </div>
 
         <div className="relative z-10 container mx-auto px-4 text-center">
-          <Badge className="mb-6 bg-red-600 hover:bg-red-700 text-white px-4 py-2 text-sm font-bold">
+          <Badge className="mb-6 bg-red-900 hover:bg-red-700 text-white px-4 py-2 text-sm font-bold">
             VAGAS LIMITADAS
           </Badge>
 
           <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-black mb-6 leading-tight">
-            Transforme seu Corpo em <span className="text-red-600">90 Dias</span>
+            Transforme seu Corpo em <span className="text-red-800">90 Dias</span>
             <br />
-            com Acompanhamento <span className="text-red-600">100% Personalizado</span>
+            com Acompanhamento <span className="text-red-800">100% Personalizado</span>
           </h1>
 
           <p className="text-lg sm:text-xl md:text-2xl mb-8 max-w-4xl mx-auto text-gray-300 font-medium">
@@ -64,7 +64,7 @@ export default function PersonalTrainerLanding() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Button size="lg" className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 text-lg font-bold w-full">
+              <Button size="lg" className="bg-red-800 hover:bg-red-700 text-white px-8 py-4 text-lg font-bold w-full">
                 QUERO COMEÇAR AGORA
               </Button>
             </Link>
@@ -94,14 +94,14 @@ export default function PersonalTrainerLanding() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-black mb-6 text-black">
-              Por que treinar comigo é <span className="text-red-600">diferente</span> de tudo que você já tentou?
+              Por que treinar comigo é <span className="text-red-800">diferente</span> de tudo que você já tentou?
             </h2>
           </div>
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 max-w-6xl mx-auto">
             <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow">
               <CardContent className="p-8 text-center">
-                <div className="bg-red-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                <div className="bg-red-800 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
                   <Calendar className="w-8 h-8 text-white" />
                 </div>
                 <h3 className="text-xl font-bold mb-4 text-black">Plano 100% Personalizado</h3>
@@ -111,7 +111,7 @@ export default function PersonalTrainerLanding() {
 
             <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow">
               <CardContent className="p-8 text-center">
-                <div className="bg-red-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                <div className="bg-red-800 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
                   <Utensils className="w-8 h-8 text-white" />
                 </div>
                 <h3 className="text-xl font-bold mb-4 text-black">Orientação Alimentar</h3>
@@ -121,7 +121,7 @@ export default function PersonalTrainerLanding() {
 
             <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow">
               <CardContent className="p-8 text-center">
-                <div className="bg-red-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                <div className="bg-red-800 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
                   <Flame className="w-8 h-8 text-white" />
                 </div>
                 <h3 className="text-xl font-bold mb-4 text-black">Acompanhamento Constante</h3>
@@ -131,7 +131,7 @@ export default function PersonalTrainerLanding() {
 
             <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow">
               <CardContent className="p-8 text-center">
-                <div className="bg-red-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                <div className="bg-red-800 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
                   <Smartphone className="w-8 h-8 text-white" />
                 </div>
                 <h3 className="text-xl font-bold mb-4 text-black">Suporte Total</h3>
@@ -141,7 +141,7 @@ export default function PersonalTrainerLanding() {
 
             <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow lg:col-span-2">
               <CardContent className="p-8 text-center">
-                <div className="bg-red-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                <div className="bg-red-800 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
                   <Brain className="w-8 h-8 text-white" />
                 </div>
                 <h3 className="text-xl font-bold mb-4 text-black">Mentalidade Vencedora</h3>
@@ -157,7 +157,7 @@ export default function PersonalTrainerLanding() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-black mb-6">
-              Veja o que meus <span className="text-red-600">alunos dizem</span>:
+              Veja o que meus <span className="text-red-700">alunos dizem</span>:
             </h2>
           </div>
 
@@ -184,7 +184,7 @@ export default function PersonalTrainerLanding() {
                 <p className="text-gray-300 mb-4">
                   "Perdi 8kg em 3 meses com os treinos da Angelica. Além do físico, ganhei autoestima!"
                 </p>
-                <Badge className="bg-red-600">-8kg em 3 meses</Badge>
+                <Badge className="bg-red-800">-8kg em 3 meses</Badge>
               </CardContent>
             </Card>
 
@@ -210,7 +210,7 @@ export default function PersonalTrainerLanding() {
                 <p className="text-gray-300 mb-4">
                   "Nunca pensei que conseguiria ganhar massa muscular aos 45 anos. A angelica provou que é possível!"
                 </p>
-                <Badge className="bg-red-600">+12kg massa magra</Badge>
+                <Badge className="bg-red-800">+12kg massa magra</Badge>
               </CardContent>
             </Card>
 
@@ -236,7 +236,7 @@ export default function PersonalTrainerLanding() {
                 <p className="text-gray-300 mb-4">
                   "O acompanhamento é incrível! Mesmo sendo mãe de 2 filhos, consegui meus resultados."
                 </p>
-                <Badge className="bg-red-600">-15kg pós-parto</Badge>
+                <Badge className="bg-red-800">-15kg pós-parto</Badge>
               </CardContent>
             </Card>
           </div>
@@ -254,13 +254,13 @@ export default function PersonalTrainerLanding() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-black mb-6 text-black">
-              Como funciona o meu método de <span className="text-red-600">transformação corporal</span>:
+              Como funciona o meu método de <span className="text-red-800">transformação corporal</span>:
             </h2>
           </div>
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8 max-w-6xl mx-auto">
             <div className="text-center">
-              <div className="bg-red-600 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
+              <div className="bg-red-800 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
                 <span className="text-2xl font-black text-white">1</span>
               </div>
               <h3 className="text-xl font-bold mb-4 text-black">Avaliação Física Completa</h3>
@@ -268,7 +268,7 @@ export default function PersonalTrainerLanding() {
             </div>
 
             <div className="text-center">
-              <div className="bg-red-600 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
+              <div className="bg-red-800 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
                 <span className="text-2xl font-black text-white">2</span>
               </div>
               <h3 className="text-xl font-bold mb-4 text-black">Plano Sob Medida</h3>
@@ -276,7 +276,7 @@ export default function PersonalTrainerLanding() {
             </div>
 
             <div className="text-center">
-              <div className="bg-red-600 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
+              <div className="bg-red-800 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
                 <span className="text-2xl font-black text-white">3</span>
               </div>
               <h3 className="text-xl font-bold mb-4 text-black">Acompanhamento Individual</h3>
@@ -284,7 +284,7 @@ export default function PersonalTrainerLanding() {
             </div>
 
             <div className="text-center">
-              <div className="bg-red-600 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
+              <div className="bg-red-800 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
                 <span className="text-2xl font-black text-white">4</span>
               </div>
               <h3 className="text-xl font-bold mb-4 text-black">Resultados em 90 Dias</h3>
@@ -308,7 +308,7 @@ export default function PersonalTrainerLanding() {
       </section>
 
       {/* Oferta com Urgência */}
-      <section className="py-16 bg-red-600 text-white">
+      <section className="py-16 bg-red-800 text-white">
         <div className="container mx-auto px-2 text-center">
           <h2 className="text-3xl md:text-5xl font-black mb-6">Vagas limitadas para acompanhamento personalizado!</h2>
 
@@ -329,7 +329,7 @@ export default function PersonalTrainerLanding() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Button size="lg" className="bg-black hover:bg-gray-800 text-white px-8 py-6 text-sm font-bold">
+            <Button size="lg" className="bg-black hover:bg-green-700 text-white px-8 py-6 text-sm font-bold">
               QUERO GARANTIR MINHA VAGA
             </Button>
           </Link>
@@ -345,7 +345,7 @@ export default function PersonalTrainerLanding() {
             </div>
 
             <h2 className="text-4xl md:text-5xl font-black mb-6 text-black">
-              Você no controle. <span className="text-red-600">Treine sem riscos.</span>
+              Você no controle. <span className="text-red-800">Treine sem riscos.</span>
             </h2>
 
             <p className="text-xl mb-6 text-gray-700">
@@ -375,7 +375,7 @@ export default function PersonalTrainerLanding() {
 
             <div>
               <h2 className="text-4xl md:text-5xl font-black mb-6">
-                Sou <span className="text-red-600">Angelica Santos</span>
+                Sou <span className="text-red-800">Angelica Santos</span>
               </h2>
 
               <p className="text-xl mb-6 text-gray-300">
@@ -389,19 +389,19 @@ export default function PersonalTrainerLanding() {
 
               <div className="grid grid-cols-2 gap-6 mb-8">
                 <div className="text-center">
-                  <div className="text-3xl font-black text-red-600 mb-2">200+</div>
+                  <div className="text-3xl font-black text-red-800 mb-2">200+</div>
                   <div className="text-sm text-gray-400">Alunos Transformados</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-black text-red-600 mb-2">5</div>
+                  <div className="text-3xl font-black text-red-800 mb-2">5</div>
                   <div className="text-sm text-gray-400">Anos de Experiência</div>
                 </div>
               </div>
 
               <div className="flex gap-4">
-                <Badge className="bg-red-600">CREF Ativo</Badge>
-                <Badge className="bg-red-600">Especialista em Emagrecimento</Badge>
-                <Badge className="bg-red-600">Hipertrofia</Badge>
+                <Badge className="bg-red-800">CREF Ativo</Badge>
+                <Badge className="bg-red-800">Especialista em Emagrecimento</Badge>
+                <Badge className="bg-red-800">Hipertrofia</Badge>
               </div>
             </div>
           </div>
@@ -413,7 +413,7 @@ export default function PersonalTrainerLanding() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-black mb-6 text-black">
-              Perguntas <span className="text-red-600">Frequentes</span>
+              Perguntas <span className="text-red-800">Frequentes</span>
             </h2>
           </div>
 
@@ -483,7 +483,7 @@ export default function PersonalTrainerLanding() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Button size="lg" className="bg-red-600 hover:bg-red-700 text-white px-8 py-6 text-sm font-bold">
+            <Button size="lg" className="bg-red-800 hover:bg-green-800 text-white px-8 py-6 text-sm font-bold">
               QUERO COMEÇAR AGORA
             </Button>
           </Link>
@@ -495,7 +495,7 @@ export default function PersonalTrainerLanding() {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <h3 className="text-2xl font-bold mb-4 text-red-600">Angelica Santos</h3>
+              <h3 className="text-2xl font-bold mb-4 text-red-800">Angelica Santos</h3>
               <p className="text-gray-400 mb-4">Personal Trainer</p>
               <p className="text-gray-400">Transformando vidas através do fitness</p>
             </div>
@@ -504,15 +504,15 @@ export default function PersonalTrainerLanding() {
               <h4 className="text-lg font-bold mb-4">Contato</h4>
               <div className="space-y-2">
                 <div className="flex items-center">
-                  <Phone className="w-4 h-4 mr-2 text-red-600" />
+                  <Phone className="w-4 h-4 mr-2 text-red-800" />
                   <span className="text-gray-400">(94) 99999-9999</span>
                 </div>
                 <div className="flex items-center">
-                  <Mail className="w-4 h-4 mr-2 text-red-600" />
+                  <Mail className="w-4 h-4 mr-2 text-red-800" />
                   <span className="text-gray-400">email</span>
                 </div>
                 <div className="flex items-center">
-                  <MapPin className="w-4 h-4 mr-2 text-red-600" />
+                  <MapPin className="w-4 h-4 mr-2 text-red-800" />
                   <span className="text-gray-400">Parauapebas, PA</span>
                 </div>
               </div>
@@ -521,13 +521,13 @@ export default function PersonalTrainerLanding() {
             <div>
               <h4 className="text-lg font-bold mb-4">Redes Sociais</h4>
               <div className="flex space-x-4">
-                <Link href="#" className="text-gray-400 hover:text-red-600">
+                <Link href="#" className="text-gray-400 hover:text-red-800">
                   <Instagram className="w-6 h-6" />
                 </Link>
-                <Link href="#" className="text-gray-400 hover:text-red-600">
+                <Link href="#" className="text-gray-400 hover:text-red-800">
                   <Facebook className="w-6 h-6" />
                 </Link>
-                <Link href="#" className="hidden text-gray-400 hover:text-red-600">
+                <Link href="#" className="hidden text-gray-400 hover:text-red-800">
                   <Youtube className="w-6 h-6" />
                 </Link>
               </div>
@@ -536,10 +536,10 @@ export default function PersonalTrainerLanding() {
             <div>
               <h4 className="text-lg font-bold mb-4">Legal</h4>
               <div className="space-y-2">
-                <Link href="#" className="text-gray-400 hover:text-red-600 block">
+                <Link href="#" className="text-gray-400 hover:text-red-800 block">
                   Termos de Uso
                 </Link>
-                <Link href="#" className="text-gray-400 hover:text-red-600 block">
+                <Link href="#" className="text-gray-400 hover:text-red-800 block">
                   Política de Privacidade
                 </Link>
               </div>
@@ -555,9 +555,9 @@ export default function PersonalTrainerLanding() {
                 href="https://www.instagram.com/blendocosta1"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-400 hover:text-red-600 transition-colors"
+                className="text-gray-400"
               >
-                Desenvolvido por <span className="font-bold">Blendo Costa</span>
+                Desenvolvido por <span className="font-bold hover:text-red-800 transition-colors">Blendo Costa</span>
               </Link>
             </div>
           </div>
