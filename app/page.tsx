@@ -76,7 +76,7 @@ export default function PersonalTrainerLanding() {
               <Button
                 size="lg"
                 variant="outline"
-                className="border-white text-white hover:bg-white hover:text-black px-8 py-4 text-lg font-bold bg-transparent w-full"
+                className="border-white text-white hover:bg-white hover:text-black px-8 py-4 text-sm font-bold bg-transparent w-full"
               >
                 AGENDAR AVALIAÇÃO GRATUITA
               </Button>
@@ -308,9 +308,9 @@ export default function PersonalTrainerLanding() {
       </section>
 
       {/* Oferta com Urgência */}
-      <section className="py-20 bg-red-600 text-white">
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="text-4xl md:text-5xl font-black mb-6">Vagas limitadas para acompanhamento personalizado!</h2>
+      <section className="py-16 bg-red-600 text-white">
+        <div className="container mx-auto px-2 text-center">
+          <h2 className="text-3xl md:text-5xl font-black mb-6">Vagas limitadas para acompanhamento personalizado!</h2>
 
           <p className="text-xl mb-8 max-w-3xl mx-auto">
             Por atender de forma individual, abro poucas vagas por mês.
@@ -329,7 +329,7 @@ export default function PersonalTrainerLanding() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Button size="lg" className="bg-black hover:bg-gray-800 text-white px-12 py-6 text-xl font-bold">
+            <Button size="lg" className="bg-black hover:bg-gray-800 text-white px-8 py-6 text-sm font-bold">
               QUERO GARANTIR MINHA VAGA
             </Button>
           </Link>
@@ -473,7 +473,7 @@ export default function PersonalTrainerLanding() {
           </p>
 
           <div className="mb-8">
-            <Badge className="bg-red-600 text-white px-4 py-2 text-lg font-bold mb-4">
+            <Badge className="bg-red-600 text-white px-2 py-2 text-xs font-bold mb-4">
               VAGAS LIMITADAS PARA ACOMPANHAMENTO PERSONALIZADO
             </Badge>
           </div>
@@ -483,7 +483,7 @@ export default function PersonalTrainerLanding() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Button size="lg" className="bg-red-600 hover:bg-red-700 text-white px-12 py-6 text-xl font-bold">
+            <Button size="lg" className="bg-red-600 hover:bg-red-700 text-white px-8 py-6 text-sm font-bold">
               QUERO COMEÇAR AGORA
             </Button>
           </Link>
