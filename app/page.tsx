@@ -358,7 +358,7 @@ export default function PersonalTrainerLanding() {
             <div>
               <Image
                 src="/placeholder.svg?height=600&width=500"
-                alt="João - Personal Trainer"
+                alt="Angelica Santos - Personal Trainer"
                 width={500}
                 height={600}
                 className="rounded-lg"
@@ -367,7 +367,7 @@ export default function PersonalTrainerLanding() {
 
             <div>
               <h2 className="text-4xl md:text-5xl font-black mb-6">
-                Sou <span className="text-red-600">João Silva</span>
+                Sou <span className="text-red-600">Angelica Santos</span>
               </h2>
 
               <p className="text-xl mb-6 text-gray-300">
@@ -497,15 +497,15 @@ export default function PersonalTrainerLanding() {
               <div className="space-y-2">
                 <div className="flex items-center">
                   <Phone className="w-4 h-4 mr-2 text-red-600" />
-                  <span className="text-gray-400">(11) 99999-9999</span>
+                  <span className="text-gray-400">(94) 99999-9999</span>
                 </div>
                 <div className="flex items-center">
                   <Mail className="w-4 h-4 mr-2 text-red-600" />
-                  <span className="text-gray-400">joao@personaltrainer.com</span>
+                  <span className="text-gray-400">email</span>
                 </div>
                 <div className="flex items-center">
                   <MapPin className="w-4 h-4 mr-2 text-red-600" />
-                  <span className="text-gray-400">São Paulo, SP</span>
+                  <span className="text-gray-400">Parauapebas, PA</span>
                 </div>
               </div>
             </div>
@@ -519,7 +519,7 @@ export default function PersonalTrainerLanding() {
                 <Link href="#" className="text-gray-400 hover:text-red-600">
                   <Facebook className="w-6 h-6" />
                 </Link>
-                <Link href="#" className="text-gray-400 hover:text-red-600">
+                <Link href="#" className="hidden text-gray-400 hover:text-red-600">
                   <Youtube className="w-6 h-6" />
                 </Link>
               </div>
