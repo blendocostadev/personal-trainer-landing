@@ -34,12 +34,12 @@ export default function PersonalTrainerLanding() {
           />
 
            {/* Imagem para celular (menor que md) */}
-    <Image
-      src="/banner-cel.jpg"
-      alt="Personal Trainer em ação"
-      fill
-      className="block md:hidden object-cover opacity-60"
-    />
+          <Image
+            src="/banner-cel.jpg"
+            alt="Personal Trainer em ação"
+            fill
+            className="block md:hidden object-cover opacity-60"
+          />
           <div className="absolute inset-0 bg-gradient-to-r from-black/80 to-black/40" />
         </div>
 
