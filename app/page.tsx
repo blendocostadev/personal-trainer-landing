@@ -343,7 +343,7 @@ export default function PersonalTrainerLanding() {
           <p className="text-xl mb-8 max-w-3xl mx-auto">
             Por atender de forma individual, abro poucas vagas por mês.
             <br />
-            Garanta agora sua avaliação gratuita ou 1ª semana com desconto exclusivo.
+            Garanta agora sua avaliação gratuita antes que as vagas acabem.
           </p>
 
           <div className="bg-white/10 rounded-lg p-8 max-w-md mx-auto mb-8">
