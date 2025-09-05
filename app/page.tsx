@@ -38,7 +38,7 @@ export default function PersonalTrainerLanding() {
             src="/banner-cel.jpg"
             alt="Personal Trainer em ação"
             fill
-            className="block md:hidden object-cover opacity-60"
+            className="block md:hidden object-cover opacity-70"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black/80 to-black/40" />
         </div>
