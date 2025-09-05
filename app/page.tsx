@@ -16,9 +16,17 @@ import {
   Facebook,
   Youtube,
   ChevronDown,
+  Calendar1,
+  Calendar1Icon,
+  CalendarArrowUp,
+  SmartphoneIcon,
+  SmartphoneChargingIcon,
+  SquareArrowUp,
+  SquarePlay,
 } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
+import { Jolly_Lodger } from "next/font/google"
 
 export default function PersonalTrainerLanding() {
   return (
@@ -102,10 +110,30 @@ export default function PersonalTrainerLanding() {
             <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow">
               <CardContent className="p-8 text-center">
                 <div className="bg-red-800 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <Star className="w-8 h-8 text-white" />
+                </div>
+                <h3 className="text-xl font-bold mb-4 text-black">Avaliação física + Bioimpedancia</h3>
+                <p className="text-gray-600">Para medir sua evolução com precisão e acompanhar cada conquista do seu corpo.</p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow">
+              <CardContent className="p-8 text-center">
+                <div className="bg-red-800 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
                   <Calendar className="w-8 h-8 text-white" />
                 </div>
                 <h3 className="text-xl font-bold mb-4 text-black">Plano 100% Personalizado</h3>
                 <p className="text-gray-600">Plano de treino 100% personalizado para o seu corpo e objetivo</p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow">
+              <CardContent className="p-8 text-center">
+                <div className="bg-red-800 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <SquarePlay className="w-8 h-8 text-white" />
+                </div>
+                <h3 className="text-xl font-bold mb-4 text-black">App com demonstração dos exercícios</h3>
+                <p className="text-gray-600">App exclusivo com vídeos demonstrativos dos exercícios, para você treinar com eficiência, segurança e melhores resultados.</p>
               </CardContent>
             </Card>
 
